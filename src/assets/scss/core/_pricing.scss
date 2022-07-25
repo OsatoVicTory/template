@@ -141,7 +141,7 @@ Pricing CSS
 }
 
 .pricing-tabs-two {
-  display: inline-flex;
+  display: inline-flex !important;
   border-radius: 18px;
   overflow: hidden;
   border: 1px solid #676099;

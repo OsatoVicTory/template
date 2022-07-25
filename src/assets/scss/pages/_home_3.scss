@@ -1,334 +1,339 @@
 .components-area {
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
+  position: relative !important;
+  z-index: 1 !important;
+  overflow: hidden !important;
   .section-title-center {
     p {
-      color: #4F4F4F;
-      font-size: 20px;
-      line-height: 1.6;
-      padding-top: 18px;
-      width: 100%;
+      color: #4F4F4F !important;
+      font-size: 20px !important;
+      line-height: 1.6 !important;
+      padding-top: 18px !important;
+      width: 100% !important;
 
       @include xl {
-        width: 80%;
+        width: 80% !important;
       }
     }
   }
 }
 
+.tab-content-fade {
+  display: hidden !important;
+}
+.tab-content-active {
+  display: block !important;
+}
 .single-component-widget {
-  border: 1px solid #e7e7e7;
-  border-radius: 10px;
-  padding: 45px 25px;
-  text-align: center;
-  transition: all 0.3s ease-out;
+  border: 1px solid #e7e7e7 !important;
+  border-radius: 10px !important;
+  padding: 45px 25px !important;
+  text-align: center !important;
+  transition: all 0.3s ease-out !important;
   &:hover {
-    box-shadow: 0px 50px 80px 0px #352a431a;
+    box-shadow: 0px 50px 80px 0px #352a431a !important;
   }
   .icon {
-    background-color: rgba(#515dc3, 10%);
-    width: 85px;
-    height: 85px;
-    border-radius: 5px;
-    display: flex;
-    margin: auto;
-    margin-bottom: 40px;
+    background-color: rgba(#515dc3, 10%) !important;
+    width: 85px !important;
+    height: 85px !important;
+    border-radius: 5px !important;
+    display: flex !important;
+    margin: auto !important;
+    margin-bottom: 40px !important;
     img {
-      margin: auto;
+      margin: auto !important;
     }
   }
   h4 {
-    font-weight: 600;
-    line-height: 1.36;
-    letter-spacing: 0.5px;
-    color: #515151;
+    font-weight: 600 !important;
+    line-height: 1.36 !important;
+    letter-spacing: 0.5px !important;
+    color: #515151 !important;
   }
   p {
-    color: $txt-para;
-    margin-top: 20px;
+    color: $txt-para !important;
+    margin-top: 20px !important;
   }
 }
 
 .deal-fast-area {
-  background-color: #E6F5FA;
-  overflow: hidden;
+  background-color: #E6F5FA !important;
+  overflow: hidden !important;
 
   .section-title-center {
-    padding-bottom: 80px;
+    padding-bottom: 80px !important;
 
     @include lg {
-      padding-bottom: 40px;
+      padding-bottom: 40px !important;
     }
     
     p {
-      font-size: 20px;
-      line-height: 1.6;
-      padding-top: 15px;
-      width: 100%;
+      font-size: 20px !important;
+      line-height: 1.6 !important;
+      padding-top: 15px !important;
+      width: 100% !important;
 
       @include lg {
-        width: 65%;
+        width: 65% !important;
       }
     }
   }
   .info-card {
-    border: none;
+    border: none !important;
     .nav-link {
-      padding: 30px 20px 22px 20px;
-      display: flex;
-      border-radius: 5px;
-      transition: all 0.3s ease-out;
-      position: relative;
-      border: none;
+      padding: 30px 20px 22px 20px !important;
+      display: flex !important;
+      border-radius: 5px !important;
+      transition: all 0.3s ease-out !important;
+      position: relative !important;
+      border: none !important;
       &:hover {
-        border: none;
+        border: none !important;
       }
       &.active {
-        background-color: #fff;
-        box-shadow: 0px 20px 50px 0px #00000014;
+        background-color: #fff !important;
+        box-shadow: 0px 20px 50px 0px #00000014 !important;
         .progress-bar {
-          display: block;
-          visibility: visible;
-          transform: scaleX(1);
+          display: block !important;
+          visibility: visible !important;
+          transform: scaleX(1) !important;
         }
       }
 
       .info-txt {
-        text-align: left;
+        text-align: left !important;
       }
       .icon {
-        margin-right: 15px;
+        margin-right: 15px !important;
       }
       h6 {
-        font-family: $inter;
-        font-size: 17px;
-        font-weight: 500;
-        line-height: 17px;
-        color: $black;
+        font-family: $inter !important;
+        font-size: 17px !important;
+        font-weight: 500 !important;
+        line-height: 17px !important;
+        color: $black !important;
       }
       p {
-        font-size: 15px;
-        font-weight: 400;
-        line-height: 26px;
-        color: $txt-para;
-        margin-top: 10px;
+        font-size: 15px !important;
+        font-weight: 400 !important;
+        line-height: 26px !important;
+        color: $txt-para !important;
+        margin-top: 10px !important;
       }
       .progress-bar {
-        visibility: hidden;
-        display: block;
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        background-color: $brand-app;
-        height: 4px;
-        box-shadow: 0px 20px 50px 0px #00000014;
-        transform: scaleX(0);
-        transform-origin: left;
-        border-top-right-radius: 5px;
-        border-bottom-right-radius: 5px;
-        transition: transform 5s linear;
+        visibility: hidden !important;
+        display: block !important;
+        width: 100% !important;
+        position: absolute !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        background-color: $brand-app !important;
+        height: 4px !important;
+        box-shadow: 0px 20px 50px 0px #00000014 !important;
+        transform: scaleX(0) !important;
+        transform-origin: left !important;
+        border-top-right-radius: 5px !important;
+        border-bottom-right-radius: 5px !important;
+        transition: transform 5s linear !important;
       }
     }
   }
   .tab-pane {
-    padding-top: 0;
-
-    &.active {
-      .main-img img {
-        -webkit-animation-duration: 1s;
-        animation-duration: 1s;
-        -webkit-animation-fill-mode: both;
-        animation-fill-mode: both;
-        &:nth-child(1) {
-          animation-name: fadeInLeft;
-        }
-        &:nth-child(2) {
-          animation-name: fadeInRight;
-          animation-delay: 0.1s;
+      padding-top: 0 !important;
+      &.active {
+        .main-img img {
+          -webkit-animation-duration: 1s !important;
+          animation-duration: 1s !important;
+          -webkit-animation-fill-mode: both !important;
+          animation-fill-mode: both !important;
+          &:nth-child(1) {
+            animation-name: fadeInLeft !important;
+          }
+          &:nth-child(2) {
+            animation-name: fadeInRight !important;
+            animation-delay: 0.1s !important;
+          }
         }
       }
-    }
   }
   .main-img {
-    position: relative;
-    display: inline-block;
+    position: relative !important;
+    display: inline-block !important;
     img {
       &:nth-child(2) {
-        position: absolute;
-        right: -170px;
-        bottom: -27px;
+        position: absolute !important;
+        right: -170px !important;
+        bottom: -27px !important;
       }
     }
   }
 }
 
 .mobile-app-area {
-  padding: 150px 0;
+  padding: 150px 0 !important;
   h2 {
-    line-height: 1.24;
-    letter-spacing: 0.5px;
-    width: 100%;
+    line-height: 1.24 !important;
+    letter-spacing: 0.5px !important;
+    width: 100% !important;
 
     @include xl {
-      width: 85%;
+      width: 85% !important;
     }
 
   }
   .content {
-    font-size: 20px;
-    line-height: 1.6;
-    color: $txt-para;
-    margin-top: 15px;
-    margin-bottom: 60px;
-    width: 100%;
+    font-size: 20px !important;
+    line-height: 1.6 !important;
+    color: $txt-para !important;
+    margin-top: 15px !important;
+    margin-bottom: 60px !important;
+    width: 100% !important;
 
     @include sm {
-      width: 65%;
+      width: 65% !important;
     }
     @include lg {
-      width: 75%;
+      width: 75% !important;
     }
   }
   .app-store-link {
-    color: $white;
-    background-color: #473d8d;
-    padding: 8px 8px;
+    color: $white !important;
+    background-color: #473d8d !important;
+    padding: 8px 8px !important;
     p {
-      color: $white;
-      line-height: 1;
+      color: $white !important;
+      line-height: 1 !important;
     }
 
     &:hover {
-      border-color: #473d8d;
-      background-color: $white;
-      color: #473d8d;
+      border-color: #473d8d !important;
+      background-color: $white !important;
+      color: #473d8d !important;
       p {
-        color: #473d8d;
+        color: #473d8d !important;
       }
     }
   }
 }
 
 .app-itegretion-area {
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-  padding: 40px 0 180px;
+  position: relative !important;
+  z-index: 1 !important;
+  overflow: hidden !important;
+  padding: 40px 0 180px !important;
   
   h2 {
-    line-height: 1.24;
+    line-height: 1.24 !important;
   }
   p {
-    font-size: 20px;
-    line-height: 1.6;
-    color: $txt-para;
-    margin: 20px 0 30px;
+    font-size: 20px !important;
+    line-height: 1.6 !important;
+    color: $txt-para !important;
+    margin: 20px 0 30px !important;
   }
   .supported {
     li {
-      display: inline-block;
-      color: $txt-para;
-      margin-right: 35px;
+      display: inline-block !important;
+      color: $txt-para !important;
+      margin-right: 35px !important;
       &:last-child {
-        margin-right: 0;
+        margin-right: 0 !important;
       }
       i {
-        font-size: 13px;
-        color: #52b4a4;
-        margin-right: 5px;
+        font-size: 13px !important;
+        color: #52b4a4 !important;
+        margin-right: 5px !important;
       }
     }
   }
   .btn {
-    font-family: $inter;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20px;
-    letter-spacing: 0.5px;
-    padding: 21px 1.5rem;
-    margin-top: 60px;
-    background-color: $brand-app;
-    border-color: $brand-app;
-    color: #fff;
+    font-family: $inter !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    line-height: 20px !important;
+    letter-spacing: 0.5px !important;
+    padding: 21px 1.5rem !important;
+    margin-top: 60px !important;
+    background-color: $brand-app !important;
+    border-color: $brand-app !important;
+    color: #fff !important;
     &:hover {
-      color: $brand-app;
-      background-color: transparent;
+      color: $brand-app !important;
+      background-color: transparent !important;
     }
   }
 }
 
 .integreted-app {
-  border-radius: 50%;
-  border: 2px dashed rgba(#c6c6c6, 32%);
-  position: relative;
-  width: 396px;
-  height: 396px;
-  transition: all 0.3s linear;
+  border-radius: 50% !important;
+  border: 2px dashed rgba(#c6c6c6, 32%) !important;
+  position: relative !important;
+  width: 396px !important;
+  height: 396px !important;
+  transition: all 0.3s linear !important;
   .app {
-    height: 86px;
-    width: 86px;
-    box-shadow: 0px 20px 50px 0px #00000014, 0px 20px 50px 0px #0000000d;
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    display: flex;
-    transition: all 0.3s ease-out;
+    height: 86px !important;
+    width: 86px !important;
+    box-shadow: 0px 20px 50px 0px #00000014, 0px 20px 50px 0px #0000000d !important;
+    background-color: #fff !important;
+    border-radius: 50% !important;
+    position: absolute !important;
+    display: flex !important;
+    transition: all 0.3s ease-out !important;
     img {
-      margin: auto;
+      margin: auto !important;
     }
     &:nth-child(1) {
-      top: 20%;
-      right: 20%;
-      transform: translateX(75%) translateY(-75%);
+      top: 20% !important;
+      right: 20% !important;
+      transform: translateX(75%) translateY(-75%) !important;
     }
     &:nth-child(2) {
-      top: 50%;
-      right: 0;
-      transform: translate(50%, -50%);
+      top: 50% !important;
+      right: 0 !important;
+      transform: translate(50%, -50%) !important;
     }
     &:nth-child(3) {
-      bottom: 20%;
-      right: 20%;
-      transform: translateX(75%) translateY(75%);
+      bottom: 20% !important;
+      right: 20% !important;
+      transform: translateX(75%) translateY(75%) !important;
     }
     &:nth-child(4) {
-      bottom: 0;
-      left: 50%;
-      transform: translate(-50%, 50%);
+      bottom: 0 !important;
+      left: 50% !important;
+      transform: translate(-50%, 50%) !important;
     }
     &:nth-child(5) {
-      bottom: 20%;
-      left: 20%;
-      transform: translateX(-75%) translateY(75%);
+      bottom: 20% !important;
+      left: 20% !important;
+      transform: translateX(-75%) translateY(75%) !important;
     }
 
     &:nth-child(6) {
-      top: 50%;
-      left: 0;
-      transform: translate(-50%, -50%);
+      top: 50% !important;
+      left: 0 !important;
+      transform: translate(-50%, -50%) !important;
     }
     &:nth-child(7) {
-      top: 20%;
-      left: 20%;
-      transform: translateX(-75%) translateY(-75%);
+      top: 20% !important;
+      left: 20% !important;
+      transform: translateX(-75%) translateY(-75%) !important;
     }
     &:nth-child(8) {
-      top: 0;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      top: 0 !important;
+      left: 50% !important;
+      transform: translate(-50%, -50%) !important;
     }
     &.main {
-      height: 110px;
-      width: 110px;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      height: 110px !important;
+      width: 110px !important;
+      top: 50% !important;
+      left: 50% !important;
+      transform: translate(-50%, -50%) !important;
     }
   }
 }
 
 .bg-burst {
-  background-color: #252C53;
+  background-color: #252C53 !important;
 }

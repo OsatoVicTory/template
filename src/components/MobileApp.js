@@ -28,11 +28,11 @@ const MobileApp = () => {
                 No more juggling between various apps. Increase your produc -tivity and boost your client relationship by managing your Customers, Finances, and
                 Support right from your pocket.
               </p>
-              <a href="#" className="app-store-link wow fadeInRight" data-wow-delay="0.4s">
+              <a href="#" className="app-store-link wow fadeInRight" style={{textDecoration:"none"}} data-wow-delay="0.4s">
                 <i className="fab fa-apple"></i>
                 <p><span>Available on the</span>Apple Store</p>
               </a>
-              <a href="#" className="app-store-link ml-25 wow fadeInLeft" data-wow-delay="0.4s">
+              <a href="#" className="app-store-link ml-25 wow fadeInLeft" style={{textDecoration:"none"}} data-wow-delay="0.4s">
                 <i className="fab fa-google-play"></i>
                 <p><span>Android App On</span>Google Play</p>
               </a>
